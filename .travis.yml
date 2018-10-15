@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.1
+install:
+  - npm install
+  - bundle install
+
+script:
+  - ruby tests/test_verifyurl.rb
